@@ -26,14 +26,17 @@ button {
 #reasonDisplay {
   font-size: 24px;
   font-weight: bold;
-  background-color: #fff;
   padding: 20px;
-  border: 1px solid #ccc;
   margin-bottom: 20px;
+  font-size: 72px;
+  font-weight: 600;
+  text-transform: none;
+  text-align: center;
+  letter-spacing: 0px;
 }
 
 #copyMessage {
-  font-size: 14px;
+  font-size: 16px;
   color: green;
   display: none;
 }

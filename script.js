@@ -17,7 +17,7 @@ let currentReasonIndex = 0;
 let reasonsToShow = [...reasons]; // Clone the original reasons array
 
 const reasonDisplay = document.getElementById("reasonDisplay");
-const stopButton = document.getElementById("stopButton");
+const copyButton = document.getElementById("copyButton");
 const tryAgainButton = document.getElementById("tryAgainButton");
 const copyMessage = document.getElementById("copyMessage");
 
@@ -30,26 +30,34 @@ function startFlashingReasons() {
 }
 
 // Function to stop flashing reasons
-function stopFlashingReasons() {
+function triggerFlashingReasons() {
   clearInterval(intervalId);
-  stopButton.disabled = true;
-  tryAgainButton.style.display = "inline-block";
+  reasonDisplay.disabled = !reasonDisplay.disabled;
+  if (reasonDisplay.disabled == false) {
+    tryAgainButton.style.display = "none";
+    copyMessage.style.display = "none";
+    startFlashingReasons();
+  } else {
+    tryAgainButton.style.display = "inline-block";
+    copyMessage.style.display = "inline-block";
+  }
+
 }
 
 // Event listener for stop button
-stopButton.addEventListener("click", stopFlashingReasons);
+reasonDisplay.addEventListener("click", triggerFlashingReasons);
 
 // Event listener for try again button
 tryAgainButton.addEventListener("click", () => {
   currentReasonIndex = 0;
-  stopButton.disabled = false;
+  reasonDisplay.disabled = false;
   tryAgainButton.style.display = "none";
   copyMessage.style.display = "none";
   startFlashingReasons();
 });
 
 // Event listener for clicking on reason display to copy the reason
-reasonDisplay.addEventListener("click", () => {
+copyButton.addEventListener("click", () => {
   const reasonToCopy = reasonDisplay.textContent;
   navigator.clipboard.writeText(reasonToCopy)
     .then(() => {
