@@ -1,0 +1,28 @@
+general:
+  - Sick leave
+  - Feeling under the weather
+  - Doctor's appointment
+  - Dentist appointment
+  - Family emergency
+  - Household repairs
+  - Personal appointment
+  - Handling legal issue
+  - Had a late night call
+  - Have an early morning call
+  - Gardener visit
+  - Traffic jam
+  - Lost my key
+  - Mental rest
+
+Car:
+  - Car maintenance
+  - Car repair
+
+Kid:
+  - Childcare needs
+  - School event
+  - Doctor appointment of my kid
+  - Kid sick
+  - Running errands for my child's school matter
+  - Deliver forgotten items for my child
+
