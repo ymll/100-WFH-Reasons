@@ -7,7 +7,7 @@
 
 Welcome to the "100 Reasons Not to Go to Work" web app! Sometimes, you just need a break from the daily grind, right? This app is here to provide you with humorous and creative reasons to work from home (WFH). Click to stop the reasons from flashing, copy one that fits your situation 😜, and mark it as used for your WFH excuse arsenal!
 
-_Disclaimer: This app is purely for entertainment purposes. We do not encourage or endorse dishonesty. If you genuinely dislike your job, consider seeking professional advice. Remember, in Cantonese they say '講大話甩大牙'—when you tell big lies, you lose your teeth! Honesty is good for your dental health!_
+_Disclaimer: This app is purely for entertainment purposes. We do not encourage or endorse dishonesty. If you genuinely dislike your job, consider seeking professional advice. Remember, in Cantonese we say '講大話甩大牙' — when you tell big lies, you lose your teeth! Honesty is good for your dental health!_
 
 ## Features
 

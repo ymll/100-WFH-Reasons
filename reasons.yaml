@@ -1,4 +1,4 @@
-general:
+General:
   - Sick leave
   - Feeling under the weather
   - Doctor's appointment
@@ -10,19 +10,55 @@ general:
   - Had a late night call
   - Have an early morning call
   - Gardener visit
-  - Traffic jam
   - Lost my key
   - Mental rest
+  - Power outage at home
+  - Rainstorm
+  - Snowstorm
+  - My leg hurts
+  - Stomachache
+  - Inclement weather
+  - Avoiding commute due to traffic
+  - Construction work on my commute
+  - Recovering from minor surgery or medical procedure
+  - Deliveries
+  - Avoiding distractions in the office
+  - Taking care of a sick family member
+  - Participating in a community or volunteer event
+  - Handling an administrative issue
+  - Collaborating with international colleagues in different time zones
+  - Recording or editing video or audio content
+  - Rescheduling a missed meeting or appointment
+  - Supporting a local community initiative
+  - Managing a relocation or home move
+  - Attending to a healthcare check-up or preventive visit
+  - Supporting a spouse or partner's schedule
+  - Preparing for a presentation or speaking engagement
+
+Not-an-excuse:
+  - Completing a home improvement project
+  - Researching new business opportunities
+  - Preparing for a job interview
+  - Attending to a personal hobby or passion project
+  - Restoring personal energy and well-being
+  - Reviewing and updating personal finances
+  - Organizing personal documents or files
+  - Avoiding human
+  - Taking a day for self-reflection and goal setting
 
 Car:
   - Car maintenance
   - Car repair
+  - Attending to a vehicle inspection or maintenance
 
 Kid:
   - Childcare needs
-  - School event
+  - School event for child
   - Doctor appointment of my kid
   - Kid sick
   - Running errands for my child's school matter
   - Deliver forgotten items for my child
+  - Attending a child's performance or recital
 
+Pet:
+  - Attending to a pet's needs
