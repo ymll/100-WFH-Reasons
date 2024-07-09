@@ -1,5 +1,5 @@
 
-# 100 Reasons Not to Go to Work
+# 100 Reasons Not to Go to Office
 ***
 # 【 😮‍💨 Your Ultimate WFH Excuses 🤥 】
 
